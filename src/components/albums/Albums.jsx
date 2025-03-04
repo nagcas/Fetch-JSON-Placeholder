@@ -1,5 +1,5 @@
 import './Albums.css';
-import { useFetch } from '../../services/useFetch';
+import { useFetchAW } from '../../services/useFetchAW';
 import Errors from '../errors/Errors';
 import Loading from '../loading/Loading';
 import ReturnHome from '../returnHome/ReturnHome';
@@ -8,7 +8,7 @@ const apiURL = 'https://jsonplaceholder.typicode.com/albums';
 
 export default function Albums() {
 
-  const { data, error, loading } = useFetch(apiURL);
+  const { data, error, loading } = useFetchAW(apiURL);
 
   return (
     <>
