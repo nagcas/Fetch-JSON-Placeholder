@@ -17,3 +17,7 @@ a:hover {
   background-color: aliceblue;
   color: #000;
 }
+
+.error {
+  color: rgb(255, 0, 0);
+}
