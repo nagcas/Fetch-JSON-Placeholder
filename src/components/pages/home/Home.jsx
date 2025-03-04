@@ -1,4 +1,4 @@
-import { Link } from "wouter";
+import { Link } from 'wouter';
 
 export default function Home() {
   return (
@@ -7,6 +7,8 @@ export default function Home() {
       <div>
         <Link to='/users'>Users All</Link>
         <Link to='/posts'>Posts All</Link>
+        <Link to='/photos'>Photos</Link>
+        <Link to='/albums'>Albums</Link>
       </div>
     </>
   )
