@@ -5,7 +5,8 @@ export default function Home() {
     <>
       <h1>Fetch JSON - Placeholder</h1>
       <div>
-        <Link to='/users'>Users</Link>
+        <Link to='/users'>Users All</Link>
+        <Link to='/posts'>Posts All</Link>
       </div>
     </>
   )

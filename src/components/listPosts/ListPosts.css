@@ -1,0 +1,12 @@
+.posts {
+  text-align: left;
+  border: 1px solid #eee;
+  border-radius: 16px;
+  margin-bottom: 10px;
+  padding: 16px;
+}
+
+small {
+  font-size: 1.2rem;
+  color: #aedda2
+}
