@@ -1,5 +1,5 @@
 import './ListPosts.css';
-import { useFetch } from '../../services/useFetch';
+import { useFetchAW } from '../../services/useFetchAW';
 import Errors from '../errors/Errors';
 import Loading from '../loading/Loading';
 import ReturnHome from '../returnHome/ReturnHome';
@@ -9,7 +9,7 @@ const apiURL = 'https://jsonplaceholder.typicode.com/posts';
 
 export default function ListPosts() {
 
-  const { data, error, loading } = useFetch(apiURL);
+  const { data, error, loading } = useFetchAW(apiURL);
   return (
     <>
       <h1>Posts All</h1>
