@@ -44,5 +44,6 @@ export function useFetchAW(url) {
 
   }, [url]);
 
+  // Restituiamo un oggetto con i dati, gli errori e lo stato di caricamento
   return { data, error, loading };
 } 
