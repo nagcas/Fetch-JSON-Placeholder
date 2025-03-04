@@ -21,7 +21,7 @@ export function useFetchAW(url) {
         
         // Verifica se la risposra è 200 (status HTTP 200)
         if (!response.ok) {
-          throw new Error('Errore nella richiesta.');
+          throw new Error('Error in the request.');
         }
 
         // Convertiamo la risposta in formato JSON
@@ -32,7 +32,7 @@ export function useFetchAW(url) {
         setData(data);
       } catch (error) {
         // Gestione degli errori      
-        console.error('Errore', error);
+        console.error('Error', error);
         setError(error.message);
       } finally {
         setLoading(false);
