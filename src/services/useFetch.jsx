@@ -21,7 +21,7 @@ export function useFetch(url) {
         setData(data);
       })
       .catch((error) => {
-        console.error('Errore', error);
+        console.error('Error', error);
         
         // Se c'è stato un errore lo memorizziamo nello stato 'error'
         setError(error.message);
