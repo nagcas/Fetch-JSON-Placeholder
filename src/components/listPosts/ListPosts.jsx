@@ -15,14 +15,15 @@ export default function ListPosts() {
       <h1>Posts All</h1>
       <Errors error={error} />
       <Loading loading={loading} />
-        {data?.map((item) => (
-          <div key={item.id} className='posts'>
-            <small>id: {item.id}</small>
-            <h2>{item.title}</h2>
-            <p>{item.body}</p>
-          </div>
-        ))}
-        <ReturnHome />
+      {data?.map((item) => (
+        <div key={item.id} className='posts'>
+          <small>id: {item.id}</small>
+          <h2>{item.title}</h2>
+          <p>{item.body}</p>
+          <small>UserId: {item.userId}</small>
+        </div>
+      ))}
+      <ReturnHome />
     </>
   )
 }
