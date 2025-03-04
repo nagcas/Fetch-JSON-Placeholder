@@ -1,0 +1,9 @@
+.ul__users {
+  font-size: 1.2rem;
+  border: 0;
+}
+
+.ul__users:hover {
+  background-color: transparent;
+  color: #12e9a8;
+}

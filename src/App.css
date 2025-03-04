@@ -14,8 +14,8 @@ a {
   border-radius: 16px;
 }
 a:hover {
-  background-color: aliceblue;
-  color: #000;
+  background-color: #eee;
+  color: #12e9a8;
 }
 
 .error {
